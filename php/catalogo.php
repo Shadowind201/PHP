@@ -19,9 +19,9 @@
         $jogos = ["Death Stranding", " Astroneer", "Helldivers 2", "Dead Space 2", "The isle", "Minecraft"];
         $capas = ["death_stranding.jpg", "astroneer.jpg", "helldivers2.jpg", "dead_space2.jpg", "the_isle.jpg", "minecraft.jpg"];
 
-        $numero_filmes = count($jogos);
+        $numero_jogos = count($jogos);
         $contador = 0;
-        while($contador < $numero_filmes){
+        while($contador < $numero_jogos){
             echo "<img src='$capas[$contador]'>";
             echo "<br> $jogos[$contador] <br><br>";
 
